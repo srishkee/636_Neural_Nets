@@ -1,0 +1,59 @@
+Error: near line 1: attempt to write a readonly database
+2020-03-22 13:55:24.896677: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/tamusc/Anaconda/3-5.0.0.1/lib:/software/lsf/9.1/linux2.6-glibc2.3-x86_64/lib
+2020-03-22 13:55:24.897205: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/tamusc/Anaconda/3-5.0.0.1/lib:/software/lsf/9.1/linux2.6-glibc2.3-x86_64/lib
+2020-03-22 13:55:24.897233: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2020-03-22 13:55:44.119054: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/tamusc/Anaconda/3-5.0.0.1/lib:/software/lsf/9.1/linux2.6-glibc2.3-x86_64/lib
+2020-03-22 13:55:44.119158: E tensorflow/stream_executor/cuda/cuda_driver.cc:351] failed call to cuInit: UNKNOWN ERROR (303)
+2020-03-22 13:55:44.119245: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lrg256-3003): /proc/driver/nvidia/version does not exist
+2020-03-22 13:55:44.134609: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2500100000 Hz
+2020-03-22 13:55:44.136377: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55f0e8ab2b90 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-03-22 13:55:44.136447: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Using TensorFlow backend.
+['outputs', 'addins', 'readme', 'sk_extra_demos', 'model.py', 'LICENSE', 'util.py', 'dataset', 'py_rmpe_server', 'Images_Cutting_Folders', 'config', 'sample_images', '.gitmodules', 'testing', 'config_reader.py', 'MyJob.LSF', 'config_reader_colab.py', 'model', 'README.md', '.gitignore', 'config.py', '__pycache__', 'Images_Cutting_Annotated', '.git', 'trash', 'training', 'sample_videos', 'demo_image.py']
+Starting processing...
+FOLDER_IDX:  8
+folders:  ['door_cut_ch0_P19-cut-ch0', 'door_cut_ch0_P22-cut-ch0', 'door_cut_ch0_P24-cut-ch0', 'door_cut_ch0_P14-cut-ch0', 'door_cut_ch0_P23-cut-ch0', 'door_cut_ch0_P23-cut-2-ch0', 'door_cut_ch0_P11-cut-ch0', 'door_cut_ch0_P12-cut-ch0', 'door_cut_ch0_P17-cut-ch0', 'door_cut_ch0_P23-cut-1-ch0']
+Number of images:  42
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame33.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame32.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame13.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame18.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame21.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame30.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame0.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame20.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame39.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame5.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame41.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame34.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame28.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame10.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame25.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame4.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame24.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame27.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame1.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame22.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame14.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame6.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame9.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame16.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame37.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame35.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame8.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame12.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame23.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame11.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame29.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame17.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame26.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame3.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame19.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame31.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame38.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame36.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame7.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame15.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame2.jpg
+input_image:  Images_Cutting_Folders/door_cut_ch0_P17-cut-ch0/door_cut_ch0_video0_frame40.jpg
+Total processing time = 330.36005

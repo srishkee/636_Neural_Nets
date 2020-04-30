@@ -1,0 +1,48 @@
+Error: near line 1: attempt to write a readonly database
+Error: near line 1: attempt to write a readonly database
+2020-04-02 20:34:15.155798: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/tamusc/Anaconda/3-5.0.0.1/lib:/software/lsf/9.1/linux2.6-glibc2.3-x86_64/lib
+2020-04-02 20:34:15.157575: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/tamusc/Anaconda/3-5.0.0.1/lib:/software/lsf/9.1/linux2.6-glibc2.3-x86_64/lib
+2020-04-02 20:34:15.157629: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2020-04-02 20:34:35.339456: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-04-02 20:34:35.362961: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:20:00.0 name: Tesla K20m computeCapability: 3.5
+coreClock: 0.7055GHz coreCount: 13 deviceMemorySize: 4.63GiB deviceMemoryBandwidth: 193.71GiB/s
+2020-04-02 20:34:35.363597: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 1 with properties: 
+pciBusID: 0000:8b:00.0 name: Tesla K20m computeCapability: 3.5
+coreClock: 0.7055GHz coreCount: 13 deviceMemorySize: 4.63GiB deviceMemoryBandwidth: 193.71GiB/s
+2020-04-02 20:34:35.412100: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-04-02 20:34:35.626814: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-04-02 20:34:35.789201: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-04-02 20:34:36.004325: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-04-02 20:34:36.137156: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-04-02 20:34:36.253480: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-04-02 20:34:36.421044: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-04-02 20:34:36.423729: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0, 1
+2020-04-02 20:34:36.444070: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2500110000 Hz
+2020-04-02 20:34:36.445403: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x564049ce5d80 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-04-02 20:34:36.445436: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-04-02 20:34:36.647428: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x564049d4bf40 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-04-02 20:34:36.647544: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla K20m, Compute Capability 3.5
+2020-04-02 20:34:36.647567: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (1): Tesla K20m, Compute Capability 3.5
+2020-04-02 20:34:36.649250: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:20:00.0 name: Tesla K20m computeCapability: 3.5
+coreClock: 0.7055GHz coreCount: 13 deviceMemorySize: 4.63GiB deviceMemoryBandwidth: 193.71GiB/s
+2020-04-02 20:34:36.654371: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 1 with properties: 
+pciBusID: 0000:8b:00.0 name: Tesla K20m computeCapability: 3.5
+coreClock: 0.7055GHz coreCount: 13 deviceMemorySize: 4.63GiB deviceMemoryBandwidth: 193.71GiB/s
+2020-04-02 20:34:36.654476: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-04-02 20:34:36.654522: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-04-02 20:34:36.654559: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-04-02 20:34:36.654595: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-04-02 20:34:36.654631: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-04-02 20:34:36.654673: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-04-02 20:34:36.654711: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-04-02 20:34:36.656764: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0, 1
+2020-04-02 20:34:36.656972: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-04-02 20:34:36.658913: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-02 20:34:36.658944: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 1 
+2020-04-02 20:34:36.658992: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N N 
+2020-04-02 20:34:36.659015: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 1:   N N 
+2020-04-02 20:34:36.661022: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 4326 MB memory) -> physical GPU (device: 0, name: Tesla K20m, pci bus id: 0000:20:00.0, compute capability: 3.5)
+2020-04-02 20:34:36.662215: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 4331 MB memory) -> physical GPU (device: 1, name: Tesla K20m, pci bus id: 0000:8b:00.0, compute capability: 3.5)
+/home/skumar55/.lsbatch/1585877595.9827619.shell: line 21:  8013 Killed                  python classify.py
