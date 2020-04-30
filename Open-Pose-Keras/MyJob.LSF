@@ -1,0 +1,23 @@
+##NECESSARY JOB SPECIFICATIONS
+#BSUB -L /bin/bash # Uses bash to initialize the job's execution environment.
+#BSUB -J Cooking_Annotations # Set the job name to "ExampleJob1"
+#BSUB -W 2:30 # Set the wall clock limit to 2hr
+#BSUB -n 1 # Request 1 core
+#BSUB -R "span[ptile=1]" # Request 1 core per node.
+#BSUB -R "rusage[mem=12000]" # Request 2500MB per process (CPU) for the job
+#BSUB -M 12000 # Set the per process enforceable memory limit to 2500MB.
+#BSUB -o outputs/output.%J # Send stdout to "stdout.[jobID]"
+
+##OPTIONAL JOB SPECIFICATIONS
+#BSUB -u skumar55@tamu.edu # Send all emails to email_address
+#BSUB -B -N # Send email on job begin (-B) and end (-N)
+
+## load required module(s)
+module load Anaconda/3-5.0.0.1
+source activate kumarenv
+
+## run your program
+python demo_image.py
+
+
+ 
